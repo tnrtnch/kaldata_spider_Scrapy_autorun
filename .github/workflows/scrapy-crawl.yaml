@@ -2,7 +2,7 @@ name: Scrapy Crawl
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Hourly run
+    - cron: "0 0 * * *"   # Daily run
   workflow_dispatch:
 
 jobs:
