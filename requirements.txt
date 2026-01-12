@@ -1,5 +1,4 @@
 Scrapy
-Sqlite3
 selenium
 webdriver-manager
 pyyaml
