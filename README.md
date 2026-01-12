@@ -3,7 +3,7 @@
 This project is a Scrapy-based web scraping application that extracts news articles from Kaldata.<br />
 The collected data is stored in a SQLite database (kaldata.db) and automatically updated every hour via GitHub Actions.<br />
 <br />
-# Features 
+## Features 
 <br />
 Extracts article title, publication date, author, and body using Scrapy<br />
 Stores all scraped data into a SQLite database (kaldata.db)<br />
