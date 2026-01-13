@@ -53,7 +53,7 @@ jobs:
           server_port: 587
           username: ${{ secrets.EMAIL_USER }}
           password: ${{ secrets.EMAIL_PASS }}
-          subject: "🚨 INEGI Scraper FAILED"
+          subject: "🚨 Kaldata Scraper FAILED"
           to: taner9321@email.com
           from: Kaldata Scraper
           body: |
