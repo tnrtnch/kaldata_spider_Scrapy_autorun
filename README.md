@@ -56,7 +56,7 @@ After execution, a kaldata.db SQLite database will be created/updated with the s
 This project includes a workflow at .github/workflows/scrapy-crawl.yml.<br />
 The workflow:<br />
 <br />
-Runs every hour (via cron job)<br />
+Runs daily (via cron job)<br />
 Executes the spider<br />
 Updates kaldata.db with new data<br />
 Commits changes back to the repository<br />
