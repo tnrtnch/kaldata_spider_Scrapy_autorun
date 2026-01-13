@@ -75,7 +75,10 @@ pubdate	text	Publication datetime<br />
 author	text	Article author<br />
 body	text	Article content<br />
 
-## Contributing <br />
-<br />
-Issues and pull requests are welcome.<br />
-Future improvements could include exporting to JSON/CSV or adding more categories.<br />
+## Failure Alert (Email Notification)
+
+This project includes an automated email alert system.
+If the scraper fails during execution (e.g. site structure changes, Selenium errors,
+or runtime exceptions), a notification email is automatically sent via GitHub Actions to inform maintainers immediately.
+
+This ensures rapid awareness of parsing issues and improves operational reliability.
